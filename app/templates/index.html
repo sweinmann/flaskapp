@@ -1,0 +1,24 @@
+{% extends 'base.html'%}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Who Created Me?</h3>
+            <p>This app was created by {{ author }}</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>What is new?</h3>
+            <p>There is a tech talk going on November 22, 2019</p>
+            <p>The talk will be given by Scott Weinmann</p>
+        </div>
+        <div class="col-sm-4">
+            <h3>Five9 is hiring</h3>
+            <p>We are looing for the following at Five 9</p>
+            <ul>
+                <li>Sr. Devops Engineer</li>
+                <li>Director of DevOps</li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
