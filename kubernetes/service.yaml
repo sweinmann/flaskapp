@@ -7,6 +7,7 @@ metadata:
   labels:
     service: myapp
 spec:
+  type: NodePort
   selector:
     app: myapp
   ports:
